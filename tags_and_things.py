@@ -16,6 +16,12 @@ class Thing(object):
         for tag in tags:
             tag.on_thing(self)
             
+class Bob(object):
+    pass
+
+class Bit(object):
+    pass
+            
 if __name__ == '__main__':
     tag1 = Tag('tag1', 'This is tag 1')
     tag2 = Tag('tag2', 'This is tag 2')
